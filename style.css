@@ -1,0 +1,175 @@
+* {
+    font-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    background-color: #E5E5E5;
+    font-family: 'Inter';
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+main {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15rem;
+}
+
+
+h1 {
+    font-size: 4.5rem;
+    line-height: 5rem;
+    text-align: center;
+}
+
+#dec1, #dec2, #unico, a {
+    color: #FF9900;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.4rem;
+    line-height: 28px;
+    color: #7D7987;
+    font-size: small;
+    margin: 2rem;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    text-align: center;
+    width: 56rem;
+}
+
+header img {
+
+    padding: 5rem;
+    min-height: 290px;
+    min-width: 270px;
+}
+
+
+
+
+/* Footer */
+
+
+footer {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+
+.final img {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.final {
+    margin: auto;
+}
+
+#line {
+    margin: 2rem auto;
+    width: 568px;
+    border: 1px solid #ECEFF2;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+}
+
+.final a {
+    margin-left: 15px;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+/*/////////////////* Media 972px ////////////////*/
+
+
+ @media (max-width: 972px) {
+    p {
+        font-size: 2.5rem;
+        min-width: 500px;
+
+        line-height: normal;
+    }
+
+    html {
+        width: 100vh;
+        height: 100vw;
+      
+    }
+    body {
+
+        margin-left: 50%;
+
+     
+    }
+}
+
+
+/*/////////////////* Media 600px ////////////////*/
+
+@media (max-width: 600px) {
+
+    h1 { 
+        font-size: 5rem;
+    }
+    p {
+        font-size: 3rem;
+    }
+    .final a {
+        font-size: 3.5rem;
+    }
+}
+
+
+
+
+/*///////////////// Media 475px ////////////////*/
+
+@media (max-width: 475px) {
+    h1 {
+        font-size: 6rem;
+     
+    }
+
+    p {
+        font-size: 4rem;
+        margin-top: 5rem;
+    }
+
+    .final a {
+        font-size: 4.5rem;
+    }
+
+
+    header img {
+        min-width: 700px;
+        min-height: 600px;
+    }
+
+
+}
